@@ -1,0 +1,11 @@
+{
+  "ConnectionString": "Server=localhost;Database=TalentAcquisitionDB_Restored;Integrated Security=SSPI;TrustServerCertificate=True;Application Name=TAMS.Copy;Connect Timeout=15",
+  "ListenUrl": "http://localhost:5090/",
+  "AppBaseUrl": "http://localhost:5090",
+  "ResetLinkBase": "http://localhost:5090/reset-password",
+  "VerifyEmailLinkBase": "http://localhost:5090/verify-email",
+  "MailOutboxPath": "C:/temp/tams-copy/mail-outbox",
+  "DocumentStorePath": "C:/temp/tams-copy/documents",
+  "DocumentBackupPath": "C:/temp/tams-copy/document-backup",
+  "LogDirectory": "C:/temp/tams-copy/logs"
+}
