@@ -1,0 +1,37 @@
+# Secrets and local config
+*.local.*
+dev-credentials.local.md
+appsettings.local.json
+Web.config.local
+.env
+
+# Build output
+bin/
+obj/
+packages/
+.vs/
+
+# Frontend
+node_modules/
+dist/
+.angular/
+
+# Runtime data
+storage/documents/*
+storage/mail-outbox/*
+!storage/documents/.gitkeep
+!storage/mail-outbox/.gitkeep
+*.mdf
+*.ldf
+*.bak
+*.log
+
+# local deployment state (Start-Tams.ps1)
+.run/
+
+# test output
+TestResults/
+storage/document-backup/
+tests/performance/
+tests/e2e/
+tests/results/
